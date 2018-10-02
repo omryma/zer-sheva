@@ -1,0 +1,180 @@
+.container-fluid {
+  padding: 0;
+  border: 0px;
+  margin: 0px;
+  font-family: fantasy;
+  color: white;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.padding-0{
+  margin:0;
+  border:0;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: rgb(70, 18, 18);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navbar{
+  background-color: #FFE4E1;
+  border-color: #434444;
+  border:2px;
+}
+
+.navbar-brand {
+  padding-left: 25px;
+}
+
+.jumbotron {
+  margin: 0;
+  border: 0;
+  padding-bottom: 350px;
+  background-color: white;
+  text-align: left;
+  color: rgb(45, 112, 151);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  background-image: url(https://scontent.fhfa2-1.fna.fbcdn.net/v/t1.0-9/22814333_134180843903770_840386310612926502_n.jpg?_nc_cat=109&oh=ae580a6fea55ada30d3903433105c5e8&oe=5C5D34B2);
+  text-shadow: 2px 2px 8px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 550px 550px;  
+}
+
+
+.carousel , .carousel-inner{
+  width:100%;
+  height:600px;
+}
+
+.carousel-caption {
+  top:62%;
+}
+
+.item {
+  vertical-align: middle;
+  font-family: Arial;
+}
+
+.img-responsive{
+  margin: auto;
+}
+
+.about-container {
+  padding-top: 70px;
+  padding-bottom:100px;
+  background-color: rgb(119, 207, 178);
+  text-align: right;
+  font-family: Arial;
+}
+
+.col-sm-4 {
+text-align: center;
+padding: 2%;
+}
+
+.glyphicon {
+  font-size: 25px;
+}
+
+.row {
+  padding-left: 15%;
+  padding-right: 15%;
+  vertical-align: middle;
+}
+
+.col-lg-8 {
+  width: 90%;
+}
+
+.row h2 {
+  text-align: center;
+}
+
+.row li {
+  list-style-type: none;
+  padding-right: 5%;
+ 
+}
+
+.products-container {
+  padding-top: 70px;
+  padding-bottom:100px;
+  background-color:#FFE4E1;
+  text-align: right;
+  font-family: Arial;
+  color:black;
+}
+
+.products-container h2 {
+  text-align: center;
+  font-family: Arial;
+}
+
+hr{
+	width: 300px;
+	border: 3px solid #434444;
+}
+
+.product-grid{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.product-grid:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.overlay{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(67, 68, 68, 0.7);
+}
+.image:hover .overlay{
+	opacity: 1;
+}
+
+.detail{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.buy{
+	background-color: #E9967A;
+	color: white;
+	border-radius: 0;
+	border: 1px solid #434444;
+	width: 100%;
+	margin-top: 20px;
+}
+.buy:hover{
+	background-color: #c26191;
+	color: #fff;
+}
+
+.contact-container {
+  padding-top: 70px;
+  padding-bottom:100px;
+  background-color: rgb(119, 207, 178);
+  text-align: center;
+  font-family: Arial;
+}
